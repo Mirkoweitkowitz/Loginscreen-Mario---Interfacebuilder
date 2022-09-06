@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4026C80828C772C800C60241 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026C80728C772C800C60241 /* LoginViewController.swift */; };
+		4026C80A28C772EA00C60241 /* NintendoDSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026C80928C772EA00C60241 /* NintendoDSViewController.swift */; };
+		4026C80C28C7730700C60241 /* Nintendo64ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026C80B28C7730700C60241 /* Nintendo64ViewController.swift */; };
+		4026C80E28C7732700C60241 /* NintendoSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026C80D28C7732700C60241 /* NintendoSwitchViewController.swift */; };
+		4026C81028C7734500C60241 /* NintendoGameCubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026C80F28C7734500C60241 /* NintendoGameCubeViewController.swift */; };
 		405044F128AB96CC0041B4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405044F028AB96CC0041B4D9 /* AppDelegate.swift */; };
 		405044F328AB96CC0041B4D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405044F228AB96CC0041B4D9 /* SceneDelegate.swift */; };
 		405044F528AB96CC0041B4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405044F428AB96CC0041B4D9 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4026C80728C772C800C60241 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4026C80928C772EA00C60241 /* NintendoDSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoDSViewController.swift; sourceTree = "<group>"; };
+		4026C80B28C7730700C60241 /* Nintendo64ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nintendo64ViewController.swift; sourceTree = "<group>"; };
+		4026C80D28C7732700C60241 /* NintendoSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoSwitchViewController.swift; sourceTree = "<group>"; };
+		4026C80F28C7734500C60241 /* NintendoGameCubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoGameCubeViewController.swift; sourceTree = "<group>"; };
 		405044ED28AB96CC0041B4D9 /* Loginscreen Mario - Interfacebuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loginscreen Mario - Interfacebuilder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		405044F028AB96CC0041B4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		405044F228AB96CC0041B4D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,11 @@
 				405044F028AB96CC0041B4D9 /* AppDelegate.swift */,
 				405044F228AB96CC0041B4D9 /* SceneDelegate.swift */,
 				405044F428AB96CC0041B4D9 /* ViewController.swift */,
+				4026C80D28C7732700C60241 /* NintendoSwitchViewController.swift */,
+				4026C80B28C7730700C60241 /* Nintendo64ViewController.swift */,
+				4026C80F28C7734500C60241 /* NintendoGameCubeViewController.swift */,
+				4026C80928C772EA00C60241 /* NintendoDSViewController.swift */,
+				4026C80728C772C800C60241 /* LoginViewController.swift */,
 				405044F628AB96CC0041B4D9 /* Main.storyboard */,
 				405044F928AB96CD0041B4D9 /* Assets.xcassets */,
 				405044FB28AB96CD0041B4D9 /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4026C80828C772C800C60241 /* LoginViewController.swift in Sources */,
 				405044F528AB96CC0041B4D9 /* ViewController.swift in Sources */,
+				4026C80A28C772EA00C60241 /* NintendoDSViewController.swift in Sources */,
+				4026C80C28C7730700C60241 /* Nintendo64ViewController.swift in Sources */,
 				405044F128AB96CC0041B4D9 /* AppDelegate.swift in Sources */,
+				4026C80E28C7732700C60241 /* NintendoSwitchViewController.swift in Sources */,
+				4026C81028C7734500C60241 /* NintendoGameCubeViewController.swift in Sources */,
 				405044F328AB96CC0041B4D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
